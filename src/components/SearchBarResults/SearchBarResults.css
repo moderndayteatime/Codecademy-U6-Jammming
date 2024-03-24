@@ -1,0 +1,22 @@
+.container {
+    background-color: #00000099;
+    color: #FFFFFF;
+    margin: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0% 1%;
+}
+
+h2 {
+    color: #1fd861;
+    border-bottom: #1fd861 solid 1px;
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+}
+
+.Content-display {
+    height: 85%;
+}

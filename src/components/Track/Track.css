@@ -1,0 +1,19 @@
+.track {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #99999910;
+    width: 110%;
+    padding: 2px 0;
+    margin: 2px 0;
+    border-bottom: 2px solid white;
+}
+
+h3, p {
+    margin: 0;
+}
+
+button#trackButton {
+    background-color: none;
+    align-self: flex-end;
+}

@@ -1,0 +1,35 @@
+.SearchBar {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000090;
+}
+
+.SearchInput {
+  margin: 0 2%;
+  height: 2vh;
+  width: 30rem;
+  border: #1fd861 solid 2px;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+button {
+  background-color: #32434d;
+  height: 3.5vh;
+  width: 5vw;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 15%;
+}
+
+button:hover {
+  background-color: #1fd861;
+  color: #000000;
+  border: none;
+  height: 3.5vh;
+}
